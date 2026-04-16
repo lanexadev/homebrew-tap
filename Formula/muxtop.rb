@@ -7,22 +7,22 @@ class Muxtop < Formula
   on_macos do
     on_arm do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-aarch64-apple-darwin.tar.gz"
-      sha256 "14ce8fa74a02e7f5fe9a637bf71c1aa9ea059ac8acf1592ce042fa3a4896c84d"
+      sha256 "278868062f98337547394088e92dc80f838c577f5db72c90caae8fba1a0e21ff"
     end
     on_intel do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-x86_64-apple-darwin.tar.gz"
-      sha256 "6bd9794ea75945d6b706ea99615beea91b5a22766a8b1378f8541eb0c94e9bfd"
+      sha256 "2aabc96cb04c1ccdd0bd8d980bb4cc5dacbfbe37d47245634984508877a8dbc0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7650e2cbe3fbe3a65ad399a7be2f80110f8a486dde1eb56a480d18cd5b4f0a57"
+      sha256 "aa5954b43c74c6432b82f5d4c5a5ac38310d42e6cdbd2d1b1a5c92f6566b6aa3"
     end
     on_intel do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f2cf770e8a954f57bc6fbeab79a611adf0c49c19485693adc001322196e04a3f"
+      sha256 "1a4c10c39ae210b1d2a24b8765612bd29b9b22f9212a6eebd95b7262492ebf56"
     end
   end
 
