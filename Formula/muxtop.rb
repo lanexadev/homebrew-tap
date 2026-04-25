@@ -1,28 +1,28 @@
 class Muxtop < Formula
   desc "A modern, multiplexed system monitor for the terminal"
   homepage "https://github.com/lanexadev/muxtop"
-  version "0.2.3"
+  version "0.3.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-aarch64-apple-darwin.tar.gz"
-      sha256 "c7993cb7aa245bbfc141acd177894998caaa31b22b181f2c558b107e7f911308"
+      sha256 "16e9b43e666e9178af0f6e0104e9b268a633d29760cc960a3f8302ec94c24814"
     end
     on_intel do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-x86_64-apple-darwin.tar.gz"
-      sha256 "a7f6be1ba1afe8082d6dce3424522352be1cf849dcdf61acb44f343b6679956d"
+      sha256 "fa33355aebbf7b40717fb939d9b6cc8fc8bd1434ad0393d2b730dc9cfcb0675c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9f85c52e2fb1d8e718616f108492463ef7c95f57502b33d63dff75af66f065e6"
+      sha256 "ec167afff1dc25f13781cc269cf10afbafa8c3df5230e088cf05839cffa871b7"
     end
     on_intel do
       url "https://github.com/lanexadev/muxtop/releases/download/v#{version}/muxtop-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4da355ac34d27770b3677f63815564ae0478e1534f44d59e1defebb90d671ecd"
+      sha256 "bad85664bac16f5a31f66f56058726446f81358f84ce170d0637f841f61bd85a"
     end
   end
 
